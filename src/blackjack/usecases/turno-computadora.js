@@ -35,11 +35,11 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
         if( puntosComputadora === puntosMinimos ) {
             alert('Nadie gana :(');
         } else if ( puntosMinimos > 21 ) {
-            alert('Computadora gana')
+            alert('La máquina gana')
         } else if( puntosComputadora > 21 ) {
             alert('Jugador Gana');
         } else {
-            alert('Computadora Gana')
+            alert('La máquina Gana')
         }
     }, 100 );
 }
